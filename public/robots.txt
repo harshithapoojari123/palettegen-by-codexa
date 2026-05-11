@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://palettegen-by-codexa.netlify.app/sitemap.xml

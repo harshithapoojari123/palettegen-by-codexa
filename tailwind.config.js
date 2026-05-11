@@ -1,0 +1,20 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  darkMode: "class",
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"]
+      },
+      boxShadow: {
+        glow: "0 24px 90px rgba(80, 70, 255, 0.25)",
+        soft: "0 24px 70px rgba(15, 23, 42, 0.12)"
+      },
+      animation: {
+        "slow-spin": "spin 18s linear infinite"
+      }
+    }
+  },
+  plugins: []
+};
